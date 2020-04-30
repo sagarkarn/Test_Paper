@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Test Paper</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_questions">Add Questions</string>
+    <string name="ssc_chsl_level_high">ssc chsl level high</string>
+    <string name="checked">checked</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+    <string name="time_take_demo">time take: 1m : 5s</string>
+    <string name="mark_obtain_100_200">mark obtain 100/200</string>
+    <string name="your_result_is_here">Your Result Is Here</string>
+    <string name="wikipedia">wikipedia</string>
+    <string-array name="spinner">
+        <item>Sort By(Default)</item>
+        <item>Wrong first</item>
+        <item>UnAttempted first</item>
+        <item>Correct first</item>
+    </string-array>
+</resources>

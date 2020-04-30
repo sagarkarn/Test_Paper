@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultFragment">
+    <TextView
+        android:id="@+id/result_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_result_is_here"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_marginVertical="32dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/result_time_taken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/time_take_demo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/result_here"/>
+    <TableLayout
+        android:id="@+id/result_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_time_taken"
+        android:layout_marginHorizontal="8dp"
+        android:stretchColumns="*"
+        >
+        <TableRow android:paddingVertical="5dp">
+            <TextView
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+
+                android:text="category"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="wrong"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="not attempted"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="correct"/>
+        </TableRow>
+        <TableRow android:id="@+id/table_row">
+            <TextView android:layout_height="1dp"
+                android:background="#000"
+                android:layout_span="4"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/totalMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Marks:150/200"
+        android:layout_below="@id/result_table"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <Button
+        android:id="@+id/check_your_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalMark"
+        android:layout_centerHorizontal="true"
+        android:text="check your answer"
+        android:layout_marginTop="32dp"
+        android:padding="16dp"/>
+
+</RelativeLayout>
