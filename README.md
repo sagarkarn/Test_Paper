@@ -17,5 +17,5 @@ Some screenshots of this app:
  
  <img src="https://github.com/sagarkarn/Test_Paper/blob/master/Screenshot_2020-05-22-11-40-20-673_com.paper.testpaper.jpg" alt="screenshot" width="350"/>  
  
- <img src="https://github.com/sagarkarn/Test_Paper/blob/master/Screenshot_2020-05-22-11-40-54-018_com.paper.testpaper.jp" alt="screenshot" width="350"/>  
+ <img src="https://github.com/sagarkarn/Test_Paper/blob/master/Screenshot_2020-05-22-11-40-54-018_com.paper.testpaper.jpg" alt="screenshot" width="350"/>  
 </p>
